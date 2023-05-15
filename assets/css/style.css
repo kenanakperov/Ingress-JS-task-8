@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0; 
+    list-style: none; 
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 20px;
+}
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+button{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+}
+span{
+    font-size: 18px;
+    color: red;
+    margin-bottom: 20px;
+}
+.password-1 {
+    position: relative;
+}
+#show-1{
+    font-size: unset;
+    height: 53px;
+    width: 45px;
+    position: absolute;
+    right: 0;
+
+}
+.password-2 {
+    position: relative;
+}
+#show-2{
+    font-size: unset;
+    height: 53px;
+    width: 45px;
+    position: absolute;
+    right: 0;
+    
+}
